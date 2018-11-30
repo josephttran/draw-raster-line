@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Draw Line Bresenham</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body onload=display()> 
+    <h2> Draw Line Bresenham</h2> 
+    <br>
+
+    <div id="gridOpt"> 
+        <label for="row"> row </label>        
+        <input type="text" id="row" value="20"> &nbsp
+
+        <label for="column"> column </label>        
+        <input type="text" id="column" value="20"><br><br>
+
+        <label for="cellSize"> cellSize </label>
+        <input type="text" id="cellSize" value="20">
+
+        <label for="border"> border </label>
+        <input type="text" id="border" value="2"><br><br>
+    </div>
+  
+    <button onclick="clearLine()" value="clearLine"> clearLine </button><br><br>
+    
+    <canvas id="canvas" width="440" height="440">
+        <p> Your browser does not support canvas</p>
+    </canvas>
+    <br>    
+
+    <h2 id="mousePosition"> (x , y) </h2>  
+    <br>
+
+ <script src="drawLineBresenham.js"> </script>
+
+</body>
+</html>
+
+

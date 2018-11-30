@@ -1,0 +1,14 @@
+canvas { 
+    border: 1px solid black;
+}
+
+button {
+	background-color:#F9E79F;
+ 	font-size:20px;
+ 	size:20px
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
